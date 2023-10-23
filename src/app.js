@@ -1,6 +1,6 @@
 import  express  from "express";
-import ProductRouter from "./routes/ProductManager.js";
-import carsRouter from "./routes/cars.js"
+import ProductRouter from "./routes/ProductManager.router.js";
+import carsRouter from "./routes/cars.router.js"
 import { __dirname } from './utils.js';
 
 
